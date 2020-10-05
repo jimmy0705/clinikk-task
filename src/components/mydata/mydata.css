@@ -90,6 +90,7 @@ input.searchbar {
 .data-num{
     font-weight: 600;
     font-size: 64px;
+    font-family: 'Baloo Bhai 2', cursive;
 }
 
 .data-p{
@@ -98,17 +99,33 @@ input.searchbar {
 }
 
 .subscribe-innerdiv-1 {
-    margin-left: 1.5em;
-    margin-top: 2em;
+    margin-left: 1.2em;
+    margin-top: 1.2em;
 }
 
 .subscribe-h5{
     font-size: 25px;
     font-weight: 600;
+    font-family: 'Baloo Bhai 2', cursive;
 }
 
-.subscribe-button{
+/* .subscribe-button{
     background: #0C0B0B;
     border-radius: 8px;
     color: white;
+} */
+
+.subscribe-button {
+    background: black;
+    border-radius: 8px;
+    color: white;
+    /* border: 2px solid black; */
+    padding: 9px 11px;
+    /* font-size: 16px; */
+    font-weight: 500;
+    text-decoration: none !important;
+}
+
+.subscribe-button:hover{
+    color: white !important;
 }

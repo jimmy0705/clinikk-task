@@ -16,7 +16,7 @@ function Tabs(props) {
   return (
       
    <>
-  <h2 style={{marginTop:"1em"}}>courses </h2>
+  <h2 className="tags-title" style={{marginTop:"1em"}}>courses </h2>
       <div className="filter-tabs-area">
           <a className="tabs" href="#">All Courses</a>
           <a className="tabs" href="#">The Newest</a>

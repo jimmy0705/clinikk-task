@@ -42,7 +42,7 @@ const  [index,setIndex] = useState(0)
       </div>
 
       <div>
-      <h5>{mydata[index].title}</h5>
+      <h5 className="course-title">{mydata[index].title}</h5>
       <p>By {mydata[index].author}</p>
       </div>
 

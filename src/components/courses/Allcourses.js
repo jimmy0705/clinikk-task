@@ -30,7 +30,7 @@ function Allcourse(props) {
         </div>
   
         <div>
-        <h5>{course.title}</h5>
+        <h5 className="course-title">{course.title}</h5>
       <p>by {course.author}</p>
         </div>
         <div>
