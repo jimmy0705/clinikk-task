@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/jimmy0705/clinikk-task/static/css/main.9587ec1f.chunk.css",
-    "main.js": "/jimmy0705/clinikk-task/static/js/main.77fe0432.chunk.js",
-    "main.js.map": "/jimmy0705/clinikk-task/static/js/main.77fe0432.chunk.js.map",
+    "main.js": "/jimmy0705/clinikk-task/static/js/main.6856ea95.chunk.js",
+    "main.js.map": "/jimmy0705/clinikk-task/static/js/main.6856ea95.chunk.js.map",
     "runtime-main.js": "/jimmy0705/clinikk-task/static/js/runtime-main.c9383c33.js",
     "runtime-main.js.map": "/jimmy0705/clinikk-task/static/js/runtime-main.c9383c33.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/jimmy0705/clinikk-task/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.fec3003d.chunk.js": "/jimmy0705/clinikk-task/static/js/2.fec3003d.chunk.js",
     "static/js/2.fec3003d.chunk.js.map": "/jimmy0705/clinikk-task/static/js/2.fec3003d.chunk.js.map",
     "index.html": "/jimmy0705/clinikk-task/index.html",
-    "precache-manifest.afce00876182e818a9616b1f37553406.js": "/jimmy0705/clinikk-task/precache-manifest.afce00876182e818a9616b1f37553406.js",
+    "precache-manifest.c5f84995e8679eba91ca57dc6277c51a.js": "/jimmy0705/clinikk-task/precache-manifest.c5f84995e8679eba91ca57dc6277c51a.js",
     "service-worker.js": "/jimmy0705/clinikk-task/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/jimmy0705/clinikk-task/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.9587ec1f.chunk.css.map": "/jimmy0705/clinikk-task/static/css/main.9587ec1f.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.fec3003d.chunk.js",
     "static/css/main.9587ec1f.chunk.css",
-    "static/js/main.77fe0432.chunk.js"
+    "static/js/main.6856ea95.chunk.js"
   ]
 }
