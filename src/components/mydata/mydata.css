@@ -37,6 +37,7 @@ input.searchbar {
     background: #F5F5F7;
     border-radius: 14px;
     margin-right: 1.5em;
+    
 }
 
 .subscribe-box {
@@ -83,6 +84,7 @@ input.searchbar {
     justify-content: space-around;
     align-items: center;
     padding: 2em;
+    padding-top: 3em;
 }
 
 .data-num{

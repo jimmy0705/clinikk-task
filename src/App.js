@@ -16,10 +16,10 @@ function App() {
       
 
       <Route path="/clinikk-task" exact>
-      {<Main/>}
+      <Main/>
      </Route>
-     <Route path="/clinikk-task/video/:id">
-         <VideoPlay/>
+     <Route path="/clinikk-task/video/:id" render={(props)=> <VideoPlay {...props}/>}>
+         
         </Route>
     </div>
   );

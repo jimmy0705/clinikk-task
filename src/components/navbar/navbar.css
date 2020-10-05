@@ -33,17 +33,26 @@
   }
 
 
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;left: 5.93%;
-  right: 92.27%;
-  top: 22.89%;
-  bottom: 74.22%;
- font-size: 25px;
-    color: #818181;
-    display: block;
+  .sidenav-home {
+    font-weight: 600;
+    font-size: 4em;
+    line-height: 102px;
+    color: #FFFFFF !important;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding-top: .3em;
+    text-decoration: none !important;
+    cursor: pointer;
   }
   
   .sidenav a:hover {
     color: #f1f1f1;
+  }
+
+  .logout-img{
+    width: 2em;
+    cursor: pointer;
+  }
+
+  .logout-image-tag{
+    padding-bottom: 3em;
   }

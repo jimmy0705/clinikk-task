@@ -28,7 +28,7 @@ function Main() {
     {/* <Col sm={0} className=""> */}
    
     {/* </Col> */}
-    <Col sm={7}>
+    <Col sm={7} xs ={12} >
         <Welcome/>
         <Mycourse MycoursesData={MycoursesData} key ={MycoursesData.id}/>
         <Tabs/>

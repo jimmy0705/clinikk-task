@@ -1,3 +1,4 @@
+import { Link } from '@material-ui/core';
 import React from 'react';
 
 import { Container } from 'react-bootstrap';
@@ -10,9 +11,11 @@ function Sidenavbar() {
     <div className="side-navbar-area">
 <Container className="side-nav-container-area">
 <div className="sidenav">
-  <a href="#">F.</a>
+  <Link to="#" className="sidenav-home">F.</Link>
 
-  <a href="#">Logout</a>
+  <Link to ="#" className="logout-image-tag">
+  <img className="logout-img" ismap src={require(`./logout.svg`)} alt = "logout image" border = "0"/> 
+  </Link>
 </div>
 </Container>
 
