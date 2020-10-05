@@ -28,7 +28,7 @@ function Main() {
     {/* </Col> */}
     <Col sm={7}>
         <Welcome/>
-        <Mycourse MycoursesData={MycoursesData}/>
+        <Mycourse MycoursesData={MycoursesData} key ={MycoursesData.id}/>
         {  AllcoursesData.map(course => <Allcourse course={course}  />)}
         {/* <Allcourse/> */}
     </Col>
