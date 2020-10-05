@@ -1,4 +1,5 @@
 import React,{useState} from 'react';
+import {Link} from 'react-router-dom';
 
 
 import { Container ,Row,Col} from 'react-bootstrap';
@@ -46,7 +47,9 @@ const  [index,setIndex] = useState(0)
       </div>
 
       <div>
-        <button  className="mycourse-btn">Continue</button>
+        <Link to ={{pathname:`/video/${mydata[index].url}`, state: {
+    fromNotifications: true
+  } }} target="_blank" className="mycourse-btn">Continue</Link>
       </div>
       
 

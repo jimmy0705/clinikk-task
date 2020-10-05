@@ -1,7 +1,8 @@
 import React from 'react';
 
 
-import { Container ,Row,Col} from 'react-bootstrap';
+//import { Container ,Row,Col} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 
  import './courses.css';
  //import hello from '../images/Helllo-boy.svg';
@@ -40,7 +41,7 @@ function Allcourse(props) {
         </div>
   
         <div>
-          <button  className="mycourse-btn">View course</button>
+          <Link to= {{pathname:`/video/${course.url}`}} target='_blank'  className="mycourse-btn">View course</Link>
         </div>
         
         </div>
