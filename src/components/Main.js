@@ -10,7 +10,12 @@ import Welcome from './courses/Welcome';
 import Data from './mydata/Index';
 import Sidenavbar from './navbar/Sidenavbar';
 
+import AllcoursesData from "../Allcoursesdata";
+import MycoursesData from "../Mycoursedata"
+
+
 function Main() {
+ // console.log(MycoursesData)
   return (
     <div className="main-area">
         < Sidenavbar/>
@@ -23,8 +28,9 @@ function Main() {
     {/* </Col> */}
     <Col sm={7}>
         <Welcome/>
-        <Mycourse/>
-        <Allcourse/>
+        <Mycourse MycoursesData={MycoursesData}/>
+        {  AllcoursesData.map(course => <Allcourse course={course}  />)}
+        {/* <Allcourse/> */}
     </Col>
     <Col sm={5}>
         <Data/>

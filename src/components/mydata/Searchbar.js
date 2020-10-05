@@ -15,7 +15,7 @@ function Searchbar() {
     <div className="searchbar-area">
      
      <form>
-         <input className="searchbar" type="text" placeholder="search here..." />
+         <input className="searchbar" type="text" placeholder="" />
      </form>
 </div>
     

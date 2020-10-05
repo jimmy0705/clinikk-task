@@ -13,10 +13,10 @@ function Allcourse() {
     <div className="allcourse-area">
       <h2>courses </h2>
       <div className="filter-tabs-area">
-          <a className="tabs" href="#">tag1</a>
-          <a className="tabs" href="#">tag2</a>
-          <a className="tabs" href="#">tag3</a>
-          <a className="tabs" href="#">tag4</a>
+          <a className="tabs" href="#">All Courses</a>
+          <a className="tabs" href="#">The Newest</a>
+          <a className="tabs" href="#">Top Rated</a>
+          <a className="tabs" href="#">Most Popular</a>
       </div>
 
       {/* all courses area */}
@@ -30,22 +30,7 @@ function Allcourse() {
       <p>by Alejandro Velazquez</p>
       </div>
       <div>
-        4.5
-      </div>
-
-      <div>
-        <button  className="mycourse-btn">Continue</button>
-      </div>
-      
-      </div>
-      <div className="course-div">
-      <div className="course-img-area">
-      <img className="img-fluid course-img" src={require('./images/course1.png')} />
-      </div>
-
-      <div>
-      <h5>Spanish B2</h5>
-      <p>by Alejandro Velazquez</p>
+      6h 30min
       </div>
       <div>
         4.5
@@ -66,6 +51,9 @@ function Allcourse() {
       <p>by Alejandro Velazquez</p>
       </div>
       <div>
+      6h 30min
+      </div>
+      <div>
         4.5
       </div>
 
@@ -83,12 +71,19 @@ function Allcourse() {
       <h5>Spanish B2</h5>
       <p>by Alejandro Velazquez</p>
       </div>
+      <div>
+      6h 30min
+      </div>
+      <div>
+        4.5
+      </div>
 
       <div>
         <button  className="mycourse-btn">Continue</button>
       </div>
       
       </div>
+     
       <div className="course-div">
       <div className="course-img-area">
       <img className="img-fluid course-img" src={require('./images/course1.png')} />
@@ -97,6 +92,9 @@ function Allcourse() {
       <div>
       <h5>Spanish B2</h5>
       <p>by Alejandro Velazquez</p>
+      </div>
+      <div>
+      6h 30min
       </div>
       <div>
         4.5
@@ -118,6 +116,10 @@ function Allcourse() {
       </div>
 
       <div>
+      6h 30min
+      </div>
+
+      <div>
         4.5
       </div>
 
@@ -134,6 +136,10 @@ function Allcourse() {
       <div>
       <h5>Spanish B2</h5>
       <p>by Alejandro Velazquez</p>
+      </div>
+
+      <div>
+      6h 30min
       </div>
       <div>
         4.5
