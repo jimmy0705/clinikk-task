@@ -5,9 +5,14 @@ import { Container ,Row,Col} from 'react-bootstrap';
 
  import './courses.css';
  //import hello from '../images/Helllo-boy.svg';
+import AllcoursesData from '../../Allcoursesdata';
 
 
-function Allcourse() {
+function Allcourse(props) {
+ const AllcoursesData =  props.AllcoursesData;
+// const img = AllcoursesData.img;
+
+
   return (
       
     <div className="allcourse-area">
@@ -20,136 +25,39 @@ function Allcourse() {
       </div>
 
       {/* all courses area */}
-      <div className="course-div">
-      <div className="course-img-area">
-      <img className="img-fluid course-img" src={require('./images/course1.png')} />
-      </div>
-
-      <div>
-      <h5>Spanish B2</h5>
-      <p>by Alejandro Velazquez</p>
-      </div>
-      <div>
-      6h 30min
-      </div>
-      <div>
-        4.5
-      </div>
-
-      <div>
-        <button  className="mycourse-btn">Continue</button>
-      </div>
       
-      </div>
-      <div className="course-div">
-      <div className="course-img-area">
-      <img className="img-fluid course-img" src={require('./images/course1.png')} />
-      </div>
+      {  AllcoursesData.map(course => 
+        
+        
+        <div className="course-div">
+        <div className="course-img-area">
+        <img className="img-fluid course-img" src={require(`./images/${course.img}.png`)} />
+        </div>
+  
+        <div>
+        <h5>{course.title}</h5>
+      <p>by {course.author}</p>
+        </div>
+        <div>
+        6h 30min
+        </div>
+        <div>
+          4.5
+        </div>
+  
+        <div>
+          <button  className="mycourse-btn">View course</button>
+        </div>
+        
+        </div>
+        
+        
+      )}
 
-      <div>
-      <h5>Spanish B2</h5>
-      <p>by Alejandro Velazquez</p>
-      </div>
-      <div>
-      6h 30min
-      </div>
-      <div>
-        4.5
-      </div>
 
-      <div>
-        <button  className="mycourse-btn">Continue</button>
-      </div>
-      
-      </div>
-      <div className="course-div">
-      <div className="course-img-area">
-      <img className="img-fluid course-img" src={require('./images/course1.png')} />
-      </div>
 
-      <div>
-      <h5>Spanish B2</h5>
-      <p>by Alejandro Velazquez</p>
-      </div>
-      <div>
-      6h 30min
-      </div>
-      <div>
-        4.5
-      </div>
 
-      <div>
-        <button  className="mycourse-btn">Continue</button>
-      </div>
-      
-      </div>
-     
-      <div className="course-div">
-      <div className="course-img-area">
-      <img className="img-fluid course-img" src={require('./images/course1.png')} />
-      </div>
-
-      <div>
-      <h5>Spanish B2</h5>
-      <p>by Alejandro Velazquez</p>
-      </div>
-      <div>
-      6h 30min
-      </div>
-      <div>
-        4.5
-      </div>
-
-      <div>
-        <button  className="mycourse-btn">Continue</button>
-      </div>
-       
-      </div>
-      <div className="course-div">
-      <div className="course-img-area">
-      <img className="img-fluid course-img" src={require('./images/course1.png')} />
-      </div>
-
-      <div>
-      <h5>Spanish B2</h5>
-      <p>by Alejandro Velazquez</p>
-      </div>
-
-      <div>
-      6h 30min
-      </div>
-
-      <div>
-        4.5
-      </div>
-
-      <div>
-        <button  className="mycourse-btn">Continue</button>
-      </div>
-      
-      </div>
-      <div className="course-div">
-      <div className="course-img-area">
-      <img className="img-fluid course-img" src={require('./images/course1.png')} />
-      </div>
-
-      <div>
-      <h5>Spanish B2</h5>
-      <p>by Alejandro Velazquez</p>
-      </div>
-
-      <div>
-      6h 30min
-      </div>
-      <div>
-        4.5
-      </div>
-
-      <div>
-        <button  className="mycourse-btn">Continue</button>
-      </div>
-      
-      </div>
+  
   
     </div>
   );

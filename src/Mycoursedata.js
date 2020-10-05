@@ -10,7 +10,7 @@ const MycoursesData = [
     },
     {
         id: 2,
-        title:"Spanish B2",
+        title:"Master Instagram",
         img:"course2",
         author:"Gordon Norman",
         url: "It’s hard to explain puns to kleptomaniacs because they always take things literally."

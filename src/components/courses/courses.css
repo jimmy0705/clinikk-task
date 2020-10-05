@@ -19,6 +19,14 @@
     padding-right: 2em;
 }
 
+a.tabs {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #0C0B0B;
+}
+
 .mycourse-btn{
     all:unset;
     background: #0C0B0B;
