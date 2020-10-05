@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/clinikk-task/precache-manifest.6f7eef293bd067a78811f65523ee061a.js"
+  "/clinikk-task/precache-manifest.8e9925cabcba54d3e370bd5cc3c5eaf0.js"
 );
 
 self.addEventListener('message', (event) => {
