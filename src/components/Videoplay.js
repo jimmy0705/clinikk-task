@@ -10,7 +10,6 @@ import { Container ,Row,Col} from 'react-bootstrap';
 
 function VideoPlay() {
 
-  console.log(window.params);
 
 
   return (
