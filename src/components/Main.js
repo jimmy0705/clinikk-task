@@ -9,9 +9,11 @@ import Mycourse from './courses/Mycourses';
 import Welcome from './courses/Welcome';
 import Data from './mydata/Index';
 import Sidenavbar from './navbar/Sidenavbar';
+import Tabs from './courses/Tabs'
 
 import AllcoursesData from "../Allcoursesdata";
 import MycoursesData from "../Mycoursedata"
+
 
 
 function Main() {
@@ -29,8 +31,12 @@ function Main() {
     <Col sm={7}>
         <Welcome/>
         <Mycourse MycoursesData={MycoursesData} key ={MycoursesData.id}/>
-        {/* {  AllcoursesData.map(course => <Allcourse course={course}  />)} */}
-        <Allcourse AllcoursesData = {AllcoursesData}  key = {AllcoursesData.id}/>
+        <Tabs/>
+        <div className="allcourse-area">
+           {  AllcoursesData.map(course => <Allcourse course={course} key = {course.id} />)}
+          </div>
+        
+      
     </Col>
     <Col sm={5}>
         <Data/>
