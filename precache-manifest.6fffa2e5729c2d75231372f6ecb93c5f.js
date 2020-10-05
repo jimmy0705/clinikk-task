@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5fa49b6442f61d30ae6efc97ee787a70",
+    "revision": "e838e5a4f148b95e918cf6a911330c11",
     "url": "/clinikk-task/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/clinikk-task/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "dfec7b885e7d6af01c70",
-    "url": "/clinikk-task/static/css/main.b5e51b1e.chunk.css"
+    "revision": "1f233ff51fde018896d8",
+    "url": "/clinikk-task/static/css/main.b59be21d.chunk.css"
   },
   {
     "revision": "9a5c798f49e128077a56",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/clinikk-task/static/js/2.fec3003d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dfec7b885e7d6af01c70",
-    "url": "/clinikk-task/static/js/main.602b47e7.chunk.js"
+    "revision": "1f233ff51fde018896d8",
+    "url": "/clinikk-task/static/js/main.bb49c860.chunk.js"
   },
   {
     "revision": "e6d8c785aa376571fd0a",
