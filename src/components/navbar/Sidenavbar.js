@@ -14,7 +14,7 @@ function Sidenavbar() {
   <Link to="#" className="sidenav-home">F.</Link>
 
   <Link to ="#" className="logout-image-tag">
-  <img className="logout-img" ismap src={require(`./logout.svg`)} alt = "logout image" border = "0"/> 
+  <img className="logout-img"  src={require(`./logout.svg`)} alt = "logout image" border = "0"/> 
   </Link>
 </div>
 </Container>

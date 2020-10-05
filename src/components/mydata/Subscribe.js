@@ -23,7 +23,7 @@ function SubscribeBox() {
        <a href="#" className="subscribe-button">Go Premium</a>
      </div>
      <div className="data-bosubscribe-innerdiv-2">
-      <img className="img-fluid subscribe-img" src={require('./subs.png')}  />
+      <img className="img-fluid subscribe-img" src={require('./subs.svg')}  />
      </div>
 
      </div>

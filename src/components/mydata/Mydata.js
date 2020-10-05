@@ -19,7 +19,7 @@ function Mydata() {
        <p className="data-p">Courses completed</p>
      </div>
      <div className="data-box">
-     <h3 className ="data-num">4</h3>
+     <h3 className ="data-num">3</h3>
        <p className ="data-p">Courses in progress</p>
      </div>
      
