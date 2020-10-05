@@ -1,0 +1,80 @@
+
+
+
+.data-nav-area{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    /* top: 0; */
+    /* left: 0; */
+    /* background-color: #111; */
+    overflow-x: hidden;
+    /* padding-top: 20px; */
+    /* border-left: 2px solid grey; */
+    margin-top: 4em;
+}
+
+
+input.searchbar {
+    border-radius: 8px;
+    border-color: transparent;
+    width: 60%;
+    height: 40px;
+    background: #F5F5F7;
+}
+
+.mydata-area {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+    justify-content: flex-start;
+}
+
+.data-box {
+    width: 208px;
+    height: 96.33px;
+    background: #F5F5F7;
+    border-radius: 14px;
+    margin-right: 1.5em;
+}
+
+.subscribe-box {
+    width: 440px;
+    height: 200px;
+    /* left: 920.06px; */
+    /* top: 683px; */
+    background: #F5F5F7;
+    border-radius: 14px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.subscribe-area {
+    margin-top: 7em;
+}
+
+.data-bosubscribe-innerdiv-2 {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+/* testing */
+
+.navbar-fixed-right{
+
+    bottom: 0;
+    width:40%;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1030;
+    /* background-color: blue; */
+    margin-top: 4em;
+}
+

@@ -1,0 +1,93 @@
+
+.welcome-area{
+
+    margin-top: 4em;
+    background: #F5F5F7;
+    border-radius: 14px;
+    height: 160px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    /* align-items: flex-end; */
+    /* margin-left: 1em; */
+    padding-left: 1.5em;
+
+}
+.tabs{
+    padding-right: 2em;
+}
+
+.mycourse-btn{
+    all:unset;
+    background: #0C0B0B;
+    border-radius: 8px;
+    color: white;
+    padding: .5em 1.5em;
+    text-decoration: none;
+}
+
+.mycourse-btn:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.course-img-area{
+    padding: 1em;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.mycourse-control-btn-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.mycourse-area {
+    /* width: 75%; */
+    height: 90px;
+    background: #F5F5F7;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mycourse-grid-area{
+    
+display: grid;
+grid-template-columns: 75% 25%;
+}
+
+
+.course-div {
+    /* width: 620px; */
+    height: 90px;
+    background: #F5F5F7;
+    border-radius: 14px;
+    margin: 1.5em 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .6em .3em;
+}
+
+.allcourse-area{
+    margin-top: 2em;
+}
+
+img.img-fluid.hello-boy-img {
+    /* position: absolute; */
+    /* right: 47px; */
+    bottom: 0;
+    position: absolute;
+    left: 50.07%;
+    /* right: 47.78%; */
+    /* top: 2.67%; */
+    /* bottom: 0; */
+}
