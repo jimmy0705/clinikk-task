@@ -14,8 +14,14 @@ function Mydata() {
 
     <div className="mydata-area">
      
-     <div className="data-box"></div>
-     <div className="data-box"></div>
+     <div className="data-box">
+       <h3 className="data-num">11</h3>
+       <p className="data-p">Courses completed</p>
+     </div>
+     <div className="data-box">
+     <h3 className ="data-num">4</h3>
+       <p className ="data-p">Courses in progress</p>
+     </div>
      
 </div>
     

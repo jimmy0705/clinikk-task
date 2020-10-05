@@ -47,7 +47,7 @@ const  [index,setIndex] = useState(0)
       </div>
 
       <div>
-        <Link to ={{pathname:`/video/${mydata[index].url}`}} target="_blank" className="mycourse-btn">Continue</Link>
+        <Link to ={{pathname:`/clinikk-task/video/${mydata[index].url}`}} target="_blank" className="mycourse-btn">Continue</Link>
       </div>
       
 

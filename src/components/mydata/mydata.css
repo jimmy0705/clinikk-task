@@ -78,3 +78,35 @@ input.searchbar {
     margin-top: 4em;
 }
 
+.data-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+}
+
+.data-num{
+    font-weight: 600;
+    font-size: 64px;
+}
+
+.data-p{
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.subscribe-innerdiv-1 {
+    margin-left: 1.5em;
+    margin-top: 2em;
+}
+
+.subscribe-h5{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.subscribe-button{
+    background: #0C0B0B;
+    border-radius: 8px;
+    color: white;
+}

@@ -41,7 +41,7 @@ function Allcourse(props) {
         </div>
   
         <div>
-          <Link to= {{pathname:`/video/${course.url}`}} target='_blank'  className="mycourse-btn">View course</Link>
+          <Link to= {{pathname:`/clinikk-task/video/${course.id}`,params:`${course.url}`}} target='_blank'  className="mycourse-btn2">View course</Link>
         </div>
         
         </div>
@@ -52,35 +52,7 @@ function Allcourse(props) {
 
       {/* =========================================== */}
       
-      {/* {  AllcoursesData.map(course => 
-        
-        
-        <div className="course-div">
-        <div className="course-img-area">
-        <img className="img-fluid course-img" src={require(`./images/${course.img}.png`)} />
-        </div>
-  
-        <div>
-        <h5>{course.title}</h5>
-      <p>by {course.author}</p>
-        </div>
-        <div>
-        6h 30min
-        </div>
-        <div>
-          4.5
-        </div>
-  
-        <div>
-          <button  className="mycourse-btn">View course</button>
-        </div>
-        
-        </div>
-        
-        
-      )} */}
-
-
+      
 
 
   

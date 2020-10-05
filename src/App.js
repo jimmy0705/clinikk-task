@@ -18,7 +18,7 @@ function App() {
       <Route path="/clinikk-task" exact>
       {<Main/>}
      </Route>
-     <Route path="/video/:id">
+     <Route path="/clinikk-task/video/:id">
          <VideoPlay/>
         </Route>
     </div>

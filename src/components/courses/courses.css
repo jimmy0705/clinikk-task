@@ -34,6 +34,18 @@ a.tabs {
     color: white;
     padding: .5em 1.5em;
     text-decoration: none;
+    cursor: pointer;
+}
+.mycourse-btn2{
+    background: #F5F5F7;
+    border-radius: 9px;
+    color: black;
+    border: 2px solid black;
+
+    padding: 8px 11px;
+    /* font-size: 16px; */
+    font-weight: 500;
+    text-decoration: none !important;
 }
 
 .mycourse-btn:hover{
