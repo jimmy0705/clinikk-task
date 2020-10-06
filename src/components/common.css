@@ -21,3 +21,30 @@
     align-items: center;
     height: 100vh;
 }
+
+
+/* @media only screen and (max-width: 1100px) {
+    .navbar-fixed-right{
+        display:none;
+    }
+   
+  } */
+
+  @media only screen and (max-width: 992px) {
+    .side-navbar-area{
+        display:none !important;
+    }
+
+    .navbar-fixed-right{
+        display:none;
+    }
+   
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .mycourse-grid-area {
+        grid-template-columns: 1fr;
+    }
+   
+  }

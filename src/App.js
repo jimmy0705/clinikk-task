@@ -11,6 +11,17 @@ import VideoPlay from './components/Videoplay';
 
 
 function App() {
+  console.log(Notification.permission)
+
+  if(Notification.permission=== "granted"){
+    alert("we have permission")
+  }
+  else if(Notification.permission !== "denied"){
+    Notification.requestPermission().then(permission=>{
+      console.log(permission)
+    })
+  }
+
   return (
     <div className="App">
       
