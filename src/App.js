@@ -14,10 +14,12 @@ function App() {
   return (
     <div className="App">
       
-
-      <Route path="/clinikk-task" exact>
+      <Route path="/" exact>
       <Main/>
      </Route>
+      {/* <Route path="/clinikk-task" exact>
+      <Main/>
+     </Route> */}
      <Route path="/clinikk-task/video/:id" render={(props)=> <VideoPlay {...props}/>}>
          
         </Route>
